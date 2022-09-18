@@ -1,0 +1,209 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_on_mayo_clinic_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.mayoclinic.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11566
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Mayo Clinic - Mayo Clinic",
+          "subLogs": [],
+          "duration": 154
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "user_navigates_to_page",
+      "args": [
+        "[Learn_more_about_mayo_clinic]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h2[@id='why-choose']/following-sibling::a[contains(text(),'Learn more about Mayo')], using=xpath}"
+          ],
+          "result": "id: 71918ab8-7473-40d1-87bf-938837a0f910",
+          "subLogs": [],
+          "duration": 1274
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //h2[@id='why-choose']/following-sibling::a[contains(text(),'Learn more about Mayo')]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //h2[@id='why-choose']/following-sibling::a[contains(text(),'Learn more about Mayo')]",
+            "{\"id\":\"71918ab8-7473-40d1-87bf-938837a0f910\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5676
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifies_page_title",
+      "args": [
+        "[Why Choose Mayo Clinic? - Mayo Clinic]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Why Choose Mayo Clinic? - Mayo Clinic",
+          "subLogs": [],
+          "duration": 63
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userClicksOnHeaderLogo",
+      "args": [
+        "[Header_Logo]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//header[@class='mayo-nav-header']/descendant::img[@alt='Mayo Clinic'], using=xpath}"
+          ],
+          "result": "id: e843cbcb-91b6-4ba4-8de1-0b0a4ea05f2d",
+          "subLogs": [],
+          "duration": 600
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //header[@class='mayo-nav-header']/descendant::img[@alt='Mayo Clinic']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //header[@class='mayo-nav-header']/descendant::img[@alt='Mayo Clinic']",
+            "{\"id\":\"e843cbcb-91b6-4ba4-8de1-0b0a4ea05f2d\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3472
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "user_verifies_title_of_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Mayo Clinic - Mayo Clinic",
+          "subLogs": [],
+          "duration": 62
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "close",
+      "args": [
+        "{}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 653
+    },
+    {
+      "commandName": "quit",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3080
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given The user is on mayo clinic home page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 11727,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user navigates to the page \"Learn_more_about_mayo_clinic\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 7009,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verifies the title \"Why Choose Mayo Clinic? - Mayo Clinic\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 68,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user clicks on \"Header_Logo\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4075,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then The user verifies the title of home page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 69,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,89 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "mayoApiTests"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "browserName": "",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZDM2NmJiNS01NDAyLTQ4MmMtYTVhOC1kODZhODk4MDYyZjIifQ.eyJpYXQiOjE2NTg5NDY1MjAsImp0aSI6ImZmOTk0YzFhLTdlMzktNGI5NS04ZjI1LWJkMWZkNzk2NDUyYiIsImlzcyI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6IjViNjI4YzliLTA0ODMtNDI3OS1iYzM3LTc0YTA0MmRiZTIzNiIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiYTE2NzRkNDUtM2YzZC00NDJiLTg0N2MtODdmZGM5ZDhmZGNkIiwic2Vzc2lvbl9zdGF0ZSI6IjdiZWFkNDRjLTE5ZjEtNGMyZi04MWVkLTQ0YTkxMzBlMTk2ZiIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUgZW1haWwifQ.vBZ3v2suu-O5ZRu1zF7zZsxqH-YjrySs-y7dXRzrzD8",
+      "takesScreenshot": true,
+      "user": "sreenivas.anugolu@publicissapient.com"
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://trial.app.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=c8339e3e-c43d-4d73-99d0-01966190c827",
+      "statBarHeight": "50",
+      "simpleIsVisibleCheck": "true",
+      "viewportRect": "{left=0, top=150, width=1125, height=2286}",
+      "streamInfo": "{\"url\":\"wss://ams-01.perfectomobile.com:443/live/websocket\",\"type\":\"WEBRTC_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":\"trial__00008110_000C342421C2801E__62d69ae8_a8e5_4128_bf2a_3bd3bd2f59de_H264\",\"peerConnectionConfiguration\":{\"iceServers\":[{\"url\":\"turn:turn-01.perfectomobile.com:443?transport=tcp\",\"username\":\"perfecto\",\"credential\":\"perfecto\"}]},\"supportedStreams\":[{\"url\":\"wss://ams-01.perfectomobile.com:443/live/websocket\",\"type\":\"WEBRTC_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":\"trial__00008110_000C342421C2801E__62d69ae8_a8e5_4128_bf2a_3bd3bd2f59de_H264\",\"peerConnectionConfiguration\":{\"iceServers\":[{\"url\":\"turn:turn-01.perfectomobile.com:443?transport=tcp\",\"username\":\"perfecto\",\"credential\":\"perfecto\"}]}},{\"url\":\"https://fast-image-us-east-1.aws-prod.perfectomobile.com/stream/495fc1f6-64ee-478d-ba97-5852c755c7a0/\",\"type\":\"FAST_IMAGE_STREAM\",\"httpMethod\":null,\"authenticationType\":null,\"streamId\":null,\"peerConnectionConfiguration\":{}},{\"url\":\"https://trial.perfectomobile.com/services/v2.0/devices/00008110-000C342421C2801E/screenshot?executionId=sreanugo1@publicisgroupe.net_RemoteWebDriver_22-08-02_16_53_14_4931&cloud=trial-perfectomobile-com&fixedSize=700\",\"type\":\"IMAGE_MODE\",\"httpMethod\":\"GET\",\"authenticationType\":\"PERFECTO_PARAMETER\",\"streamId\":null,\"peerConnectionConfiguration\":{}}]}",
+      "CFBundleIdentifier": "com.apple.mobilesafari",
+      "deviceName": "00008110-000C342421C2801E",
+      "platform": "IOS",
+      "audioStreamInfo": "{\"audioStreamingServerUrl\":null,\"audioStreamName\":\"\",\"audioStreamingProtocol\":\"RTMP\"}",
+      "cloud": "trial.perfectomobile.com",
+      "password": "",
+      "deviceSessionId": "c8339e3e-c43d-4d73-99d0-01966190c827",
+      "liveStreamEnabled": "false",
+      "platformVersion": "15.0",
+      "automationName": "Appium",
+      "host": "trial.perfectomobile.com",
+      "browserName": "",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "testRunWithPureAppiumFlow": "false",
+      "assert_javascript_enabled": "true",
+      "platformName": "IOS",
+      "udid": "00008110-000C342421C2801E",
+      "stopUrl": "https://trial.perfectomobile.com/nexperience/perfectomobile/wd/hub/session/c8339e3e-c43d-4d73-99d0-01966190c827",
+      "testGridReportUrl": "https://trial.app.perfectomobile.com/reporting/library?externalId[0]=c8339e3e-c43d-4d73-99d0-01966190c827",
+      "entityType": "remote_web_driver",
+      "xcuitestFindOptimizations": "true",
+      "bundleId": "com.apple.mobilesafari",
+      "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJoc21aWHUzdGVQMmhBM21jVUJmbnNjcXA5cmFldmdoMmZmU2t4LTBrdFBnIn0.eyJleHAiOjE2NTk0NzE0NDksImlhdCI6MTY1OTQyODI0OSwianRpIjoiNzFjZWY3YjctNTI0ZS00ZTY0LTk3MjAtYjZiNTZkZjI2OTkyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnBlcmZlY3RvbW9iaWxlLmNvbS9hdXRoL3JlYWxtcy9vcGVyYXRvciIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJmMzM0MDMzOC1hOTc3LTQ3ZGEtOTIyNS01NTY5NjJlMGFjYjYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInNlc3Npb25fc3RhdGUiOiJiZThjOWRmZi1kNzE5LTQ1YzYtODU5Yi00MWZmZTFlZDM1NWMiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvZmZsaW5lX2FjY2VzcyIsInByZWZlcnJlZF91c2VybmFtZSI6ImV4ZWN1dGlvbl9lbmdpbmVfdXMtZWFzdC0xX3VzZXIifQ.DWiTRCYjbm3TegkV3fS2CjUhSX9k9XMWJuqRJPX6odgwdMWlrdhwJ7tVLihkPeNbUqj-bSvuRf6RpmQlkxh_virKCnTnWJoLhYlvaE5oAQxMM92y52xVLtK2446NsRi-s_qeCsP8O24nsrn21b2YUXaycAtaq4QtAL2PG2eoNDluuwoHfKshP7Lyug3dpz8_vaYhPBs7gFCe2HTiRCLJ2w2OvlpQO43Gdrqzkc-Mzi0rUolJbSKCBhdXsLPNoMlRS0TEkt90jDItOarlusfh10GRiD0bH4zdMfmJ-CKMsd9KcRtMwxki-MeE2zBJuBBQwCwXvQ1XkYnwnzG6LCLPkg",
+      "serverConnector": "",
+      "serverHost": "100.94.13.117:11602",
+      "securityToken": "",
+      "executionId": "c8339e3e-c43d-4d73-99d0-01966190c827",
+      "webdriver.remote.sessionid": "c8339e3e-c43d-4d73-99d0-01966190c827",
+      "engineExternalExecId": "c8339e3e-c43d-4d73-99d0-01966190c827",
+      "mcmExecutionId": "sreanugo1@publicisgroupe.net_RemoteWebDriver_22-08-02_16_53_14_4931",
+      "pixelRatio": "3",
+      "authenticationTenant": "operator",
+      "scriptName": "RemoteWebDriver",
+      "sdkVersion": "15.0",
+      "device": "iphone",
+      "executionTenantId": "trial-perfectomobile-com",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "env.resources": "src/main/resources/common",
+      "resources": "src/main/resources/common",
+      "baseurl": "https://mayoclinic.org"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "JetBrains s.r.o.",
+      "java.version": "11.0.15",
+      "os.arch": "amd64",
+      "host": "LAPTOP-AOMQI711",
+      "os.name": "Windows 11",
+      "user.name": "sreen",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1659459193175,
+  "endTime": 1659459281372
+}

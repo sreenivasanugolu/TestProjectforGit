@@ -1,0 +1,13 @@
+{
+  "name": "Web Demo Suite",
+  "status": "unstable",
+  "tests": [
+    "WebDemoSuite_WebScenariosChromeTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1659897822403,
+  "endTime": 1659897827475
+}

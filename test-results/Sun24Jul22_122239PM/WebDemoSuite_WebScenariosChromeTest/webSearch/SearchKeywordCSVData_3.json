@@ -1,0 +1,233 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 782
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 19976f40-3d05-435a-93c1-1b64ead57a75",
+          "subLogs": [],
+          "duration": 314
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"19976f40-3d05-435a-93c1-1b64ead57a75\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 19976f40-3d05-435a-93c1-1b64ead57a75",
+          "subLogs": [],
+          "duration": 237
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"19976f40-3d05-435a-93c1-1b64ead57a75\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 314
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//*[text()='perfecto mobile quantum'])[1]\"}\n  (Session info: chrome=103.0.5060.134)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 103, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: 4a33f042-04ad-4393-a821-080..., goog:chromeOptions: {debuggerAddress: localhost:51958}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://trial.app.perfectom..., resolution: 1280x1024, se:cdp: ws://100.66.128.48:8082/ses..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, stopUrl: https://trial.perfectomobil..., streamInfo: {\n  \"url\": \"https://trial.w..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, version: 103, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4a33f042-04ad-4393-a821-080...}\nSession ID: 4a33f042-04ad-4393-a821-080d5ba1687d\n*** Element info: {Using=xpath, value=(//*[text()='perfecto mobile quantum'])[1]}",
+          "subLogs": [],
+          "duration": 348
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "id: 1ec82c3a-b9ab-4f2b-8c38-b32fed0456c1",
+          "subLogs": [],
+          "duration": 204
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{\"id\":\"1ec82c3a-b9ab-4f2b-8c38-b32fed0456c1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 821
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[id: 7c72db2e-a361-476d-accd-989cb66dc1d0, id: 87bf368f-a522-44ed-9d38-2264187567c0, id: 58737be9-e768-4918-ba63-33f324997b21, id: 5b5be3b8-561f-4052-be32-b3d85a09c47c, id: 6cf195f0-d396-4c1b-b54f-6226b3bb756b, id: 01a5b083-04a8-4143-96e4-c259cbfe4dfc, id: 9734139d-c4ce-48f1-b20f-c484419adfbe, id: f0cd071f-93e0-433f-a7c0-54f531ba0cef, id: 1a0024af-e597-494e-8596-e4a623209839]",
+          "subLogs": [],
+          "duration": 960
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 7c72db2e-a361-476d-accd-989cb66dc1d0",
+          "subLogs": [],
+          "duration": 236
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"7c72db2e-a361-476d-accd-989cb66dc1d0\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 7c72db2e-a361-476d-accd-989cb66dc1d0",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"7c72db2e-a361-476d-accd-989cb66dc1d0\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 90
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 782,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3310,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1844,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

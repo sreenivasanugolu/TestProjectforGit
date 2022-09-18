@@ -1,0 +1,224 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2137
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: b2767205-dc23-4510-aa4c-c0f6374e9bc8",
+          "subLogs": [],
+          "duration": 267
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"b2767205-dc23-4510-aa4c-c0f6374e9bc8\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: b2767205-dc23-4510-aa4c-c0f6374e9bc8",
+          "subLogs": [],
+          "duration": 220
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"b2767205-dc23-4510-aa4c-c0f6374e9bc8\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "id: 1893b4ce-2456-4473-8395-d9206ccc874f",
+          "subLogs": [],
+          "duration": 335
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{\"id\":\"1893b4ce-2456-4473-8395-d9206ccc874f\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 799
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[id: f199dbed-0d48-488f-9cf0-adbf965ba628, id: 84b385aa-cda2-4d90-9fbc-56628dee40bc, id: cb77a049-2ddf-4f2e-baf0-5d20c0ce20df, id: 8f5314a2-7259-447b-af38-aa6c81b704e2, id: 93e8b692-1401-4c96-8c66-e23f2ad4297d, id: 6ad4d72a-bbfe-46f7-8b29-74c6d8be3346, id: 293821c6-f623-44db-a328-da781ae3a60c, id: 0a4dd94f-f318-465a-9b48-ae1299918dcb]",
+          "subLogs": [],
+          "duration": 1095
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: f199dbed-0d48-488f-9cf0-adbf965ba628",
+          "subLogs": [],
+          "duration": 263
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"f199dbed-0d48-488f-9cf0-adbf965ba628\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1684
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: f199dbed-0d48-488f-9cf0-adbf965ba628",
+          "subLogs": [],
+          "duration": 266
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"f199dbed-0d48-488f-9cf0-adbf965ba628\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 102
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2143,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2109,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3670,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

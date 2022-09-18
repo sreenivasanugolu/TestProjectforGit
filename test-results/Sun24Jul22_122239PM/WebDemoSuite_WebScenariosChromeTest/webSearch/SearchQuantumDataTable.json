@@ -1,0 +1,250 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1180
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iHaveTheFollowingBooksInTheStore",
+      "args": [
+        "[[{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C.S. Lewis\"},{\"title\":\"In the Garden of Beasts\",\"author\":\"Erik Larson\"}]]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: ee63d6e1-53b3-4c59-9fed-bb5c5ead9804",
+          "subLogs": [],
+          "duration": 236
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"ee63d6e1-53b3-4c59-9fed-bb5c5ead9804\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 80
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: ee63d6e1-53b3-4c59-9fed-bb5c5ead9804",
+          "subLogs": [],
+          "duration": 245
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"ee63d6e1-53b3-4c59-9fed-bb5c5ead9804\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 290
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//*[text()='perfecto mobile quantum'])[1]\"}\n  (Session info: chrome=103.0.5060.134)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 103, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: 4a33f042-04ad-4393-a821-080..., goog:chromeOptions: {debuggerAddress: localhost:51958}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://trial.app.perfectom..., resolution: 1280x1024, se:cdp: ws://100.66.128.48:8082/ses..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, stopUrl: https://trial.perfectomobil..., streamInfo: {\n  \"url\": \"https://trial.w..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, version: 103, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4a33f042-04ad-4393-a821-080...}\nSession ID: 4a33f042-04ad-4393-a821-080d5ba1687d\n*** Element info: {Using=xpath, value=(//*[text()='perfecto mobile quantum'])[1]}",
+          "subLogs": [],
+          "duration": 241
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "id: 0e190af0-9308-424d-8265-325f9d4cdeb9",
+          "subLogs": [],
+          "duration": 237
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{\"id\":\"0e190af0-9308-424d-8265-325f9d4cdeb9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 943
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[id: cb4b7200-68ce-4fe7-a7b5-79a6b7f02339, id: 014e55dd-8724-4977-a7c2-399bd8cd5d06, id: 03e5d8ca-fdcb-4d57-a13d-581427867124, id: 9349c080-1b0e-4373-bf21-53b35a0f8fb1, id: 1870a6d7-98df-404a-b207-0c8858b4c6af, id: dd385849-abb2-4899-83bf-823d8b17fdb8, id: 4f434e97-0d2d-4ee6-b08c-f12914522db1, id: 9ee809eb-ea4a-47e2-a0b6-4ccd1e9f16b8, id: 1b4449b5-b6b0-4b3a-b5f9-f454b689efc1]",
+          "subLogs": [],
+          "duration": 1009
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: cb4b7200-68ce-4fe7-a7b5-79a6b7f02339",
+          "subLogs": [],
+          "duration": 237
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"cb4b7200-68ce-4fe7-a7b5-79a6b7f02339\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: cb4b7200-68ce-4fe7-a7b5-79a6b7f02339",
+          "subLogs": [],
+          "duration": 252
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"cb4b7200-68ce-4fe7-a7b5-79a6b7f02339\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 79
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1180,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I have the following books in the store:[{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C.S. Lewis\"},{\"title\":\"In the Garden of Beasts\",\"author\":\"Erik Larson\"}]",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 900,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3307,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1876,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

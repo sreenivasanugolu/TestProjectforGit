@@ -1,0 +1,111 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.wikipedia.org/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.wikipedia.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 125457
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.asserVisualText",
+      "args": [
+        "[The Free Encyclopedia]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I enter \"Perforce\" to \"//*[@id='searchInput']\"",
+      "args": [
+        "[Perforce, //*[@id='searchInput']]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@id=\"search-form\"]/fieldset/button\"",
+      "args": [
+        "[//*[@id=\"search-form\"]/fieldset/button]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I must see text \"developer of software\"",
+      "args": [
+        "[developer of software]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.wikipedia.org/\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 125483,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"The Free Encyclopedia\"",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 36700,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command checkpoint text: validateText command failed. Reason: capture failed Internal communication error: Http POST failed - request returned with code 406: HttpServer: Cannot handle request /image when in status STATUS_HTTP_SERVER for http://X.X.X.X:80/image?sessionId=4b777409-5ff3-4d7c-a4ea-443ee449aadc&requestId=834\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {CFBundleIdentifier: com.apple.mobilesafari, accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , bundleId: com.apple.mobilesafari, cloud: trial.perfectomobile.com, cssSelectorsEnabled: true, device: iphone, deviceName: 00008110-00146D0222FB801E, deviceSessionId: e765fedf-b9ad-4093-adc7-eaf..., engineExternalExecId: e765fedf-b9ad-4093-adc7-eaf..., entityType: remote_web_driver, executionId: e765fedf-b9ad-4093-adc7-eaf..., executionTenantId: trial-perfectomobile-com, host: trial.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, mcmExecutionId: sreenivas.anugolu@publiciss..., model: iPhone.*, password: , pixelRatio: 2, platform: IOS, platformName: IOS, platformVersion: 16.0, reportPdfUrl: https://trial.app.perfectom..., scriptName: RemoteWebDriver, sdkVersion: 16.0, securityToken: , serverConnector: , serverHost: 100.94.9.38:11610, simpleIsVisibleCheck: true, statBarHeight: 20, stopUrl: https://trial.perfectomobil..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., testRunWithPureAppiumFlow: false, udid: 00008110-00146D0222FB801E, user: , viewportRect: {height: 1294, left: 0, top: 40, width: 750}, webdriver.remote.sessionid: e765fedf-b9ad-4093-adc7-eaf..., xcuitestFindOptimizations: true}\nSession ID: e765fedf-b9ad-4093-adc7-eaf533b10307",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I enter \"Perforce\" to \"//*[@id='searchInput']\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@id=\"search-form\"]/fieldset/button\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"developer of software\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command checkpoint text: validateText command failed. Reason: capture failed Internal communication error: Http POST failed - request returned with code 406: HttpServer: Cannot handle request /image when in status STATUS_HTTP_SERVER for http://X.X.X.X:80/image?sessionId=4b777409-5ff3-4d7c-a4ea-443ee449aadc&requestId=834\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {CFBundleIdentifier: com.apple.mobilesafari, accessToken: eyJhbGciOiJSUzI1NiIsInR5cCI..., assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., authenticationTenant: operator, automationName: Appium, browserName: , bundleId: com.apple.mobilesafari, cloud: trial.perfectomobile.com, cssSelectorsEnabled: true, device: iphone, deviceName: 00008110-00146D0222FB801E, deviceSessionId: e765fedf-b9ad-4093-adc7-eaf..., engineExternalExecId: e765fedf-b9ad-4093-adc7-eaf..., entityType: remote_web_driver, executionId: e765fedf-b9ad-4093-adc7-eaf..., executionTenantId: trial-perfectomobile-com, host: trial.perfectomobile.com, javascriptEnabled: true, liveStreamEnabled: false, mcmExecutionId: sreenivas.anugolu@publiciss..., model: iPhone.*, password: , pixelRatio: 2, platform: IOS, platformName: IOS, platformVersion: 16.0, reportPdfUrl: https://trial.app.perfectom..., scriptName: RemoteWebDriver, sdkVersion: 16.0, securityToken: , serverConnector: , serverHost: 100.94.9.38:11610, simpleIsVisibleCheck: true, statBarHeight: 20, stopUrl: https://trial.perfectomobil..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., testRunWithPureAppiumFlow: false, udid: 00008110-00146D0222FB801E, user: , viewportRect: {height: 1294, left: 0, top: 40, width: 750}, webdriver.remote.sessionid: e765fedf-b9ad-4093-adc7-eaf..., xcuitestFindOptimizations: true}\nSession ID: e765fedf-b9ad-4093-adc7-eaf533b10307\r\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/02sampleTestCase.feature:6)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:571)\r\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:268)\r\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:47)\r\n\tat com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:829)\r\nCaused by: java.lang.RuntimeException: Failed to execute command checkpoint text: validateText command failed. Reason: capture failed Internal communication error: Http POST failed - request returned with code 406: HttpServer: Cannot handle request /image when in status STATUS_HTTP_SERVER for http://X.X.X.X:80/image?sessionId=4b777409-5ff3-4d7c-a4ea-443ee449aadc&requestId=834\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:522)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:603)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:40)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:150)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:107)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:64)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:28)\r\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\r\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:125)\r\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:200)\r\n\tat org.openqa.selenium.remote.server.PerfectoMobileSession.execute(PerfectoMobileSession.java:72)\r\n\tat org.openqa.selenium.remote.server.MobileWebDriverServlet.lambda$handle$2(MobileWebDriverServlet.java:303)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

@@ -1,0 +1,129 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_on_mayo_clinic_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=/}"
+          ],
+          "result": "invalid argument\n  (Session info: chrome=104.0.5112.81)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 104, chrome: {chromedriverVersion: 104.0.5112.20 (9ac43f954ebb..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: d169fec5-c676-4f6a-b688-263..., goog:chromeOptions: {debuggerAddress: localhost:50245}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://trial.app.perfectom..., resolution: 1280x1024, se:cdp: ws://100.66.139.130:8082/se..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, stopUrl: https://trial.perfectomobil..., streamInfo: {\n  \"url\": \"https://trial.w..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, version: 104, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d169fec5-c676-4f6a-b688-263...}\nSession ID: d169fec5-c676-4f6a-b688-26321fdf9b26",
+          "subLogs": [],
+          "duration": 547
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And user navigates to the page \"${page_name1}\"",
+      "args": [
+        "[${page_name1}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verifies the title \"${title}\"",
+      "args": [
+        "[${title}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user clicks on \"${link}\"",
+      "args": [
+        "[${link}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then The user verifies the title of home page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "close",
+      "args": [
+        "{}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 1801
+    },
+    {
+      "commandName": "quit",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3178
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given The user is on mayo clinic home page",
+      "type": "TestStepFail",
+      "screenshot": "img/VerifyHomePageTitle_1ocm25c9semxs52732.png",
+      "duration": 551,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "invalid argument\n  (Session info: chrome=104.0.5112.81)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 104, chrome: {chromedriverVersion: 104.0.5112.20 (9ac43f954ebb..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: d169fec5-c676-4f6a-b688-263..., goog:chromeOptions: {debuggerAddress: localhost:50245}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://trial.app.perfectom..., resolution: 1280x1024, se:cdp: ws://100.66.139.130:8082/se..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, stopUrl: https://trial.perfectomobil..., streamInfo: {\n  \"url\": \"https://trial.w..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, version: 104, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d169fec5-c676-4f6a-b688-263...}\nSession ID: d169fec5-c676-4f6a-b688-26321fdf9b26",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user navigates to the page \"${page_name1}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verifies the title \"${title}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user clicks on \"${link}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then The user verifies the title of home page",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome=104.0.5112.81)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-AOMQI711', ip: '192.168.2.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: Chrome, browserVersion: 104, chrome: {chromedriverVersion: 104.0.5112.20 (9ac43f954ebb..., userDataDir: C:\\Users\\Perfecto\\AppData\\L...}, cssSelectorsEnabled: true, executionId: d169fec5-c676-4f6a-b688-263..., goog:chromeOptions: {debuggerAddress: localhost:50245}, javascriptEnabled: true, location: US East, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, proxy: Proxy(), reportPdfUrl: https://trial.app.perfectom..., resolution: 1280x1024, se:cdp: ws://100.66.139.130:8082/se..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, stopUrl: https://trial.perfectomobil..., streamInfo: {\n  \"url\": \"https://trial.w..., strictFileInteractability: false, takesScreenshot: true, testGridReportUrl: https://trial.app.perfectom..., timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, version: 104, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d169fec5-c676-4f6a-b688-263...}\nSession ID: d169fec5-c676-4f6a-b688-26321fdf9b26\r\n\tat .Given The user is on mayo clinic home page(src/main/resources/scenarios/mayoTests.feature:5)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.quantum.steps.MayoHomeStepDefs.user_is_on_mayo_clinic_home_page(MayoHomeStepDefs.java:22)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:829)\r\n"
+}

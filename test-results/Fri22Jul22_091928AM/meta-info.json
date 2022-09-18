@@ -1,0 +1,14 @@
+{
+  "name": "ADA Suite",
+  "status": "pass",
+  "tests": [
+    "ADASuite_MayoAppointmentspage",
+    "ADASuite_Mayohomepage"
+  ],
+  "total": 2,
+  "pass": 1,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1658495968615,
+  "endTime": 1658496004496
+}

@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testReqResTest",
+        "resultFileName": "TestReqResTest",
+        "sign": "APIStepDefs.testReqResTest()[pri:0, instance:com.quantum.steps.APIStepDefs@78a287ed]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659895538423,
+      "duration": 1245,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

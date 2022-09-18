@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@sampleTestCase"
+        ],
+        "lineNo": 8,
+        "name": "search for term",
+        "reference": "src/main/resources/scenarios/02sampleTestCase.feature",
+        "resultFileName": "SearchForTerm",
+        "sign": "src.main.resources.scenarios.02sampleTestCase.feature.search for term()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658682384014,
+      "duration": 1882,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

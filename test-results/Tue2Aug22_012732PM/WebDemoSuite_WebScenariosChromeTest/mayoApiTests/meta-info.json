@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@MayoApiTests"
+        ],
+        "lineNo": 4,
+        "name": "verify api test",
+        "reference": "src/main/resources/scenarios/mayoApiTests.feature",
+        "resultFileName": "VerifyApiTest",
+        "sign": "src.main.resources.scenarios.mayoApiTests.feature.verify api test()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659461252725,
+      "duration": 22016,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

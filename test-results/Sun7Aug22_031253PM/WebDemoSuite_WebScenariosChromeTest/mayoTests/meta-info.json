@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Mayo"
+        ],
+        "lineNo": 7.0,
+        "name": "verify home page title",
+        "reference": "src/main/resources/scenarios/mayoTests.feature",
+        "resultFileName": "VerifyHomePageTitle",
+        "sign": "src.main.resources.scenarios.mayoTests.feature.verify home page title()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659899573377,
+      "duration": 16505,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "page_name1": "Learn_more_about_mayo_clinic",
+          "title": "Why Choose Mayo Clinic? - Mayo Clinic",
+          "link": "Header_Logo",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Mayo"
+        ],
+        "JSON_DATA_TABLE": "[{\"page_name1\":\"Learn_more_about_mayo_clinic\",\"title\":\"Why Choose Mayo Clinic? - Mayo Clinic\",\"link\":\"Header_Logo\"}]",
+        "lineNo": 10,
+        "name": "verify home page title",
+        "reference": "src/main/resources/scenarios/mayoTests.feature",
+        "resultFileName": "VerifyHomePageTitle_1",
+        "sign": "src.main.resources.scenarios.mayoTests.feature.verify home page title( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659899593526,
+      "duration": 33610,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

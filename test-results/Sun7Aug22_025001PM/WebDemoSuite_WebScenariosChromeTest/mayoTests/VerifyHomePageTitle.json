@@ -1,0 +1,88 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_on_mayo_clinic_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.mayoclinic.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11472
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Mayo Clinic - Mayo Clinic",
+          "subLogs": [],
+          "duration": 138
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "user_verifies_title_of_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Mayo Clinic - Mayo Clinic",
+          "subLogs": [],
+          "duration": 70
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "close",
+      "args": [
+        "{}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 803
+    },
+    {
+      "commandName": "quit",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3120
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given The user is on mayo clinic home page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 11697,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then The user verifies the title of home page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 78,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

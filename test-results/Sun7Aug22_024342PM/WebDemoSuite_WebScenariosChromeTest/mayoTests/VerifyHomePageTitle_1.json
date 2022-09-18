@@ -1,0 +1,101 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "user_is_on_mayo_clinic_home_page",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user navigates to the page \"${page_name1}\"",
+      "args": [
+        "[${page_name1}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verifies the title \"${title}\"",
+      "args": [
+        "[${title}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user clicks on \"${link}\"",
+      "args": [
+        "[${link}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then The user verifies the title of home page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given The user is on mayo clinic home page",
+      "type": "TestStepFail",
+      "screenshot": null,
+      "duration": 564,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unable to Instantiate JavaStep: user_is_on_mayo_clinic_home_page[]",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user navigates to the page \"${page_name1}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verifies the title \"${title}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user clicks on \"${link}\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then The user verifies the title of home page",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepInvocationException: Unable to Instantiate JavaStep: user_is_on_mayo_clinic_home_page[]\r\n\tat .Given The user is on mayo clinic home page(src/main/resources/scenarios/mayoTests.feature:5)\r\n\tat com.quantum.steps.MayoHomeStepDefs.user_is_on_mayo_clinic_home_page(com.quantum.steps.MayoHomeStepDefs:0)\r\n"
+}

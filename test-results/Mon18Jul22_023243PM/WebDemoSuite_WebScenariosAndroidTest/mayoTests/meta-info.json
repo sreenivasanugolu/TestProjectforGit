@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Web"
+        ],
+        "lineNo": 4,
+        "name": "open Wikipedia",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=9619d9e4-7fd5-453e-a3ad-b4206c0d5361\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/mayoTests.feature",
+        "resultFileName": "OpenWikipedia",
+        "sign": "src.main.resources.scenarios.mayoTests.feature.open Wikipedia()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658169163589,
+      "duration": 102781,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

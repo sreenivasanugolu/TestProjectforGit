@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@MayoApiTests"
+        ],
+        "lineNo": 4,
+        "name": "verify api test",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=55f9f36a-f06f-4d88-859c-00c3dc00baed\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/mayoApiTests.feature",
+        "resultFileName": "VerifyApiTest",
+        "sign": "src.main.resources.scenarios.mayoApiTests.feature.verify api test()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659459720094,
+      "duration": 24625,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

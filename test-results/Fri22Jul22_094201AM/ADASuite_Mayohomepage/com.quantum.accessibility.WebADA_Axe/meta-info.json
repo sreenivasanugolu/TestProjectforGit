@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeClass",
+        "name": "beforeClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658497321569,
+      "duration": 31825,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

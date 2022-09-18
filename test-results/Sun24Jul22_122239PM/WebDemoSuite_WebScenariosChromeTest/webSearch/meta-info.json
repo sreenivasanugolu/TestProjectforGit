@@ -1,0 +1,280 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearch",
+          "@Web"
+        ],
+        "lineNo": 5.0,
+        "name": "Search Quantum",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchQuantum",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679759276,
+      "duration": 20222,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebResultsList",
+          "@Web"
+        ],
+        "lineNo": 12.0,
+        "name": "Search Quantum with results",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchQuantumWithResults",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679779617,
+      "duration": 8935,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "recId": 1.0,
+          "recDescription": "First Data Set",
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "Quantum",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"recId\":1,\"recDescription\":\"First Data Set\",\"searchKey\":\"perfecto mobile quantum\",\"searchResult\":\"Quantum\"},{\"recId\":2,\"recDescription\":\"Second Data Set\",\"searchKey\":\"perfecto mobile quantum\",\"searchResult\":\"perfecto\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordInlineData",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679788630,
+      "duration": 7199,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "recId": 2.0,
+          "recDescription": "Second Data Set",
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "perfecto",
+          "__index": 2.0
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"recId\":1,\"recDescription\":\"First Data Set\",\"searchKey\":\"perfecto mobile quantum\",\"searchResult\":\"Quantum\"},{\"recId\":2,\"recDescription\":\"Second Data Set\",\"searchKey\":\"perfecto mobile quantum\",\"searchResult\":\"perfecto\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=4a33f042-04ad-4393-a821-080d5ba1687d\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordInlineData_1",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679795920,
+      "duration": 6506,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "recId": 1.0,
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "perfecto",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordXMLData",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679802502,
+      "duration": 5101,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "recId": 2.0,
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "Quantum",
+          "__index": 2.0
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=4a33f042-04ad-4393-a821-080d5ba1687d\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordXMLData_2",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679807665,
+      "duration": 6055,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "Quantum",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40.0,
+        "name": "Search Keyword CSV Data",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordCSVData",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679813782,
+      "duration": 6600,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "perfecto",
+          "__index": 2.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40.0,
+        "name": "Search Keyword CSV Data",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=4a33f042-04ad-4393-a821-080d5ba1687d\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchKeywordCSVData_3",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679820447,
+      "duration": 6113,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "recId": 1,
+          "recDescription": "First Data Set",
+          "searchKey": "perfecto mobile quantum",
+          "searchResult": "perfecto",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@TestDataTable",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"recId\":1,\"recDescription\":\"First Data Set\",\"searchKey\":\"perfecto mobile quantum\",\"searchResult\":\"perfecto\"}]",
+        "lineNo": 49,
+        "name": "Search Quantum data table",
+        "reference": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "SearchQuantumDataTable",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum data table( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658679826607,
+      "duration": 7514,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1148
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "iHaveTheFollowingBooksInTheStore",
+      "args": [
+        "[[{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C.S. Lewis\"},{\"title\":\"In the Garden of Beasts\",\"author\":\"Erik Larson\"}]]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[perfecto mobile quantum]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: df4ea83c-d683-4179-99f7-3aa8064152e0",
+          "subLogs": [],
+          "duration": 241
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"df4ea83c-d683-4179-99f7-3aa8064152e0\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 73
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: df4ea83c-d683-4179-99f7-3aa8064152e0",
+          "subLogs": [],
+          "duration": 225
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: q",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"df4ea83c-d683-4179-99f7-3aa8064152e0\",\"value\":[\"perfecto mobile quantum\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 226
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[text()='perfecto mobile quantum'])[1], using=xpath}"
+          ],
+          "result": "id: 104ae76b-f7b5-42a9-89b6-5d5ceb53fc85",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[text()='perfecto mobile quantum'])[1]",
+            "{\"id\":\"104ae76b-f7b5-42a9-89b6-5d5ceb53fc85\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1031
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "[id: 0892d7bf-cc1c-40b5-9ba8-f35392cd96fa, id: 5e5abdb3-4722-4132-a9bb-338f2b97f8af, id: 98671d34-b65d-428f-a7b3-7958a3c5942c, id: 72ee27f5-27de-4712-b659-ff405d1923e7, id: 4b46470f-f6bf-4ef1-b008-8a461b841e11, id: 5ef4346a-25bf-435c-a07c-36fc0f0701a2, id: 5f1ce3a3-4ad8-458b-bd5c-8701177ae1e3, id: 091c7702-ed4f-4806-9cd9-47822b2b547c]",
+          "subLogs": [],
+          "duration": 727
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 0892d7bf-cc1c-40b5-9ba8-f35392cd96fa",
+          "subLogs": [],
+          "duration": 255
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"0892d7bf-cc1c-40b5-9ba8-f35392cd96fa\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 93
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=perfecto, using=partial link text}"
+          ],
+          "result": "id: 0892d7bf-cc1c-40b5-9ba8-f35392cd96fa",
+          "subLogs": [],
+          "duration": 236
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.partialLinkText: perfecto",
+            "{\"id\":\"0892d7bf-cc1c-40b5-9ba8-f35392cd96fa\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 96
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1151,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I have the following books in the store:[{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C.S. Lewis\"},{\"title\":\"In the Garden of Beasts\",\"author\":\"Erik Larson\"}]",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 897,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"perfecto mobile quantum\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2221,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"perfecto\" in search results",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1638,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

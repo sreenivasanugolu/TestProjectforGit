@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "runCukes",
+        "resultFileName": "RunCukes",
+        "sign": "ApiRunner.runCukes()[pri:0, instance:com.quantum.runners.ApiRunner@5ad10c1a]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1659894210273,
+      "duration": 314,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

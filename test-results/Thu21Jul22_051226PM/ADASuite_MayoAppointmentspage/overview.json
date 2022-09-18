@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.quantum.accessibility.WebADA_Axe"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": null,
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34",
+      "qaf-Version": "3.0"
+    },
+    "run-parameters": {
+      "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZDM2NmJiNS01NDAyLTQ4MmMtYTVhOC1kODZhODk4MDYyZjIifQ.eyJpYXQiOjE2NTc3MjQyNjcsImp0aSI6IjhlYTNlNDJlLTRlNmQtNDdlYi05YWIyLWI1NTlkN2RiZmY5NiIsImlzcyI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6IjQ5YmJiZjU4LTkwY2ItNDBkYi1hNzI3LTYyMGZjMzAxNjg0MiIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiNjRjMDhiMTItNTA4Yi00MDk1LThlZjYtYmEyNGVjZjMxZWFkIiwic2Vzc2lvbl9zdGF0ZSI6IjNjNDdkYjc3LTdjM2ItNGNiNy05OTJkLTk0MmM0YzNjYmUyYyIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUgZW1haWwifQ.XDuP8fMBl2_QMLbD_GrBNVKV_w7byeTPG3w7oYPz3rw",
+      "host": "trial.perfectomobile.com",
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "url": "https://www.mayoclinic.org/appointments"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "JetBrains s.r.o.",
+      "java.version": "11.0.15",
+      "os.arch": "amd64",
+      "host": "LAPTOP-AOMQI711",
+      "os.name": "Windows 11",
+      "user.name": "sreen",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1658437946752,
+  "endTime": 1658437948428
+}

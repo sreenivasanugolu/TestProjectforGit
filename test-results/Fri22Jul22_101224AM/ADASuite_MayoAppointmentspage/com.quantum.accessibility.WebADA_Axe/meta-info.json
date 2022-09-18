@@ -1,0 +1,63 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeClass",
+        "name": "beforeClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658499144796,
+      "duration": 10547,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        "https://www.mayoclinic.org/appointments"
+      ],
+      "metaData": {
+        "groups": [],
+        "name": "FM_Homepage",
+        "resultFileName": "FM_Homepage",
+        "sign": "WebADA_Axe.FM_Homepage(java.lang.String)[pri:0, instance:com.quantum.accessibility.WebADA_Axe@2dbe250d]",
+        "value": [
+          "url"
+        ]
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658499155359,
+      "duration": 26391,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterClass",
+        "name": "afterClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658499181777,
+      "duration": 3643,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

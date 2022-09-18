@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@sampleTestCase"
+        ],
+        "lineNo": 8,
+        "name": "search for term",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=5256f08b-525a-4b5f-85c1-2b3ac04ff868\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/02sampleTestCase.feature",
+        "resultFileName": "SearchForTerm",
+        "sign": "src.main.resources.scenarios.02sampleTestCase.feature.search for term()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658682927387,
+      "duration": 64224,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

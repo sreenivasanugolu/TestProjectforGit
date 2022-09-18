@@ -1,0 +1,16 @@
+{
+  "name": "Appium Demo Suite",
+  "status": "fail",
+  "tests": [
+    "AppiumDemoSuite_IOSExpenseTrackerTest",
+    "AppiumDemoSuite_AndroidEmulatorExpenseTrackerTest",
+    "AppiumDemoSuite_iOSSimulatorExpenseTrackerTest",
+    "AppiumDemoSuite_AndroidExpenseTrackerTest"
+  ],
+  "total": 4,
+  "pass": 0,
+  "fail": 4,
+  "skip": 0,
+  "startTime": 1658680162959,
+  "endTime": 1658680283508
+}

@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Mayo"
+        ],
+        "lineNo": 7,
+        "name": "verify home page title",
+        "Perfecto-report": "<a href=\"https://trial.app.perfectomobile.com/reporting/library?externalId[0]=e6717496-51b2-4d0a-945e-98c252da4c61\" target=\"_blank\">view</a>",
+        "reference": "src/main/resources/scenarios/mayoTests.feature",
+        "resultFileName": "VerifyHomePageTitle",
+        "sign": "src.main.resources.scenarios.mayoTests.feature.verify home page title()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1658686256786,
+      "duration": 32885,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

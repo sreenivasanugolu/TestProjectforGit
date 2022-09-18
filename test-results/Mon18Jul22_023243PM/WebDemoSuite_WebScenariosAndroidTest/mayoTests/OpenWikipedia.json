@@ -1,0 +1,68 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.navigateToURL",
+      "args": [
+        "[https://www.mayoclinic.org/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.mayoclinic.org/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1039
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.asserVisualText",
+      "args": [
+        "[Log in to Patient Account]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open browser to webpage \"https://www.mayoclinic.org/\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1063,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I must see text \"Log in to Patient Account\"",
+      "type": "TestStepFail",
+      "screenshot": "img/OpenWikipedia_1o9w0d2aelmfs56356.png",
+      "duration": 75205,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"Log in to Patient Account\" must be present\nExpected: \"true\"\n     Actual: was \"false\"",
+          "type": "Fail",
+          "screenshot": "img/OpenWikipedia_1l0ge96u83mec56355.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Text: \"Log in to Patient Account\" must be present",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: Text: \"Log in to Patient Account\" must be present\r\n\tat .Then I must see text \"Log in to Patient Account\"(src/main/resources/scenarios/mayoTests.feature:6)\r\n\tat com.qmetry.qaf.automation.util.Validator.assertThat(Validator.java:66)\r\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:47)\r\n\tat com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n"
+}
